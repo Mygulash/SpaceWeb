@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #1c2355;
+  color: #fafaff;
+  font-family: 'Space Grotesk';
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.media {
+  margin: 3vh;
+  max-width: 60vw;
+  max-height: 50vh;
+}
+
+#app {
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#side {
+  width: 15vw;
+  background-color: #1c2355;
+}
+
+#loading {
+  margin-top: 10vh;
+  font-size: 8vh;
+  font-weight: 700;
+
+  animation: anime 1.5s infinite;
+}
+
+@keyframes anime {
+  0%{
+    color: #fafaff;
+    font-size: 7.5vh;
+  }
+  5%{
+    color: #d9d9fc;
+    font-size: 7.55vh;
+  }
+  10%{
+    color: #d9d9fc;
+    font-size: 7.6vh;
+  }
+  15%{
+    color: #d9d9fc;
+    font-size: 7.65vh;
+  }
+  20%{
+    color: #c3c3fa;
+    font-size: 7.7vh;
+  }
+  25%{
+    color: #c3c3fa;
+    font-size: 7.75vh;
+  }
+  30%{
+    color: #adadf8;
+    font-size: 7.8vh;
+  }
+  35%{
+    color: #adadf8;
+    font-size: 7.85vh;
+  }
+  40%{
+    color: #9292f3;
+    font-size: 7.9vh;
+  }
+  45%{
+    color: #9292f3;
+    font-size: 7.95vh;
+  }
+  50%{
+    color: #7a7af1;
+    font-size: 8vh;
+  }
+  55%{
+    color: #7a7af1;
+    font-size: 7.95vh;
+  }
+  60%{
+    color: #9292f3;
+    font-size: 7.9vh;
+  }
+  65%{
+    color: #adadf8;
+    font-size: 7.85vh;
+  }
+  70%{
+    color: #adadf8;
+    font-size: 7.8vh;
+  }
+  75%{
+    color: #c3c3fa;
+    font-size: 7.75vh;
+  }
+  80%{
+    color: #c3c3fa;
+    font-size: 7.7vh;
+  }
+  85%{
+    color: #d9d9fc;
+    font-size: 7.65vh;
+  }
+  90%{
+    color: #d9d9fc;
+    font-size: 7.6vh;
+  }
+  95%{
+    color: #fafaff;
+    font-size: 7.55vh;
+  }
+  100%{
+    color: #fafaff;
+    font-size: 7.5vh;
+  }
+}
+
+#error {
+  margin-top: 8vh;
+  font-size: 8vh;
+  font-weight: 700;
+  color: rgb(252, 56, 56);
+  margin-bottom: 0vh;
+}
+
+#errorsub {
+  font-size: 3vh;
+}
+
+#information {
+  max-width: 50vw;
+  font-size: large;
+  text-align: left;
+}
+
+@media (max-width: 600px) {
+  body {
+    margin-left: 5vw;
+  }
+
+  .media {
+    max-width: 90vw;
+    max-height: 50vh;
+  }
+  
+  #side {
+    display: none;
+  }
+
+  #app {
+    width: 90vw;
+  }
+
+  #information {
+    max-width: 80vw;
+  }
+}
