@@ -10,7 +10,7 @@ body {
 }
 
 .media {
-  margin: 3vh;
+  margin-bottom: 3vh;
   max-width: 60vw;
   max-height: 50vh;
 }
@@ -29,7 +29,7 @@ body {
 }
 
 #loading {
-  margin-top: 10vh;
+  margin-top: 33vh;
   font-size: 8vh;
   font-weight: 700;
 
@@ -124,11 +124,38 @@ body {
 }
 
 #error {
-  margin-top: 8vh;
+  margin-top: 30vh;
   font-size: 8vh;
   font-weight: 700;
   color: rgb(252, 56, 56);
   margin-bottom: 0vh;
+}
+
+#controls {
+  background-color: #1c2355;
+  margin-bottom: 3vh;
+  color: goldenrod;
+}
+
+#controls label {
+  font-size: large;
+}
+
+#date-picker {
+  background-color: #8390f1;
+  outline: #1c2355;
+  width: 6vw;
+  height: 3vh;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+#fetch-button {
+  background-color: #8390f1;
+  outline: #1c2355;
+  width: 6vw;
+  height: 3.6vh;
+  text-align: center;
 }
 
 #errorsub {

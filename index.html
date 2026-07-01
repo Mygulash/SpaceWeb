@@ -9,8 +9,16 @@
   </head>
   <body>
   <div id="side"></div>
-  <div id="app">
-    <p>Todays NASA picture</p>
+  <div>
+    <div id="controls">
+      <h1>Astronomy Picture of the Day</h1>
+      <label for="date-picker"><b>Choose a date:</b></label>
+      <input type="date" id="date-picker" min="1995-06-16" />
+      <button id="fetch-button">Get Photo</button>
+    </div>
+    <div id="app">
+      <p>Todays NASA picture</p>
+    </div>
   </div>
   <div id="side"></div>
   <script type="module" src="/src/main.js"></script>
